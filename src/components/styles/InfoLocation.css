@@ -1,0 +1,36 @@
+.location{
+    width: 100%;
+    max-width: 24em;
+    background-color: #083b42;
+    padding: 1em 1.5em;
+    border-radius: 0.8em;
+    box-shadow: 0.2em 0.2em 0.6em #0005;
+    margin-bottom: 2em;
+    margin-left: auto;
+    margin-right: auto;
+}
+.location__name{
+    text-align: center;
+    color: rgb(80, 160, 40);
+    margin-bottom: 0.5em;
+}
+.location__info{
+    display: flex;
+    gap: 1em;
+    flex-wrap:  wrap;
+    justify-content: space-between;
+}
+.location__item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.2em;
+}
+.location__label{
+    color: white;
+    font-weight: 500;
+}
+.location__value{
+    color: #999;
+    font-weight: 300;
+}
